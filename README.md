@@ -133,7 +133,3 @@ Run all cells in order from top to bottom.
 - Cluster interpretation/naming (e.g. "high-value loyal", "price-sensitive online") is not yet finalized in the notebook — add descriptive business-facing labels to each cluster for stakeholders.
 - No model persistence step yet (e.g. saving the fitted `scaler`, `pca`, and cluster model via `joblib`) for scoring new customers.
 - PCA explained variance for 3 components is only ~45% combined — consider evaluating clustering directly on scaled features (or more PCA components) to check if segmentation quality improves.
-
-## License
-
-Add a license of your choice (e.g. MIT) here.
